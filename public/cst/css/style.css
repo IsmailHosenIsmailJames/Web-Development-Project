@@ -1,0 +1,154 @@
+/* Style the navigation bar */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #111;
+}
+
+/* Style the logo */
+.nav-logo {
+    height: 3rem;
+}
+
+/* Style the navigation links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+/* Style the content */
+.content {
+    margin-top: 5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* Basic list styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Nested lists */
+ul ul {
+    margin: 0 20px;
+}
+
+/* Horizontal lists */
+.horizontal-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.horizontal-list li {
+    margin: 0 10px;
+    padding: 10px;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+/* Checklists */
+.checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.checklist li {
+    position: relative;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+img {
+    border-radius: 4mm;
+}
+
+.checklist li input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.checklist li input[type="checkbox"]:checked {
+    background-color: #0f9d58;
+    border-color: #0f9d58;
+}
+
+/* Description lists */
+.description-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.description-list dt {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.description-list dd {
+    margin-bottom: 10px;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
