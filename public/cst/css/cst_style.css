@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+}
+
+.header h2 {
+    color: #3498db;
+}
+
+.header hr {
+    border: 1px solid #3498db;
+}
+
+.about-section p,
+.department-section p,
+.facilities-section p {
+    line-height: 1.6;
+}
+
+.big-bold {
+    font-size: 1.2em;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.red-text {
+    color: #e74c3c;
+}
+
+.teachers-section hr {
+    border: 1px solid #2c3e50;
+}
+
+.teacher-header h1 {
+    color: #e74c3c;
+    text-align: center;
+}
+
+
+#cst_img img {
+    text-align: center;
+    border-radius: 5mm;
+    width: 500px;
+    margin: 5px;
+}
