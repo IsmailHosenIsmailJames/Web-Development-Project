@@ -100,7 +100,7 @@ ul ul {
 }
 
 /* Container holding the image and the text */
-.container {
+.full_container {
     position: relative;
     text-align: center;
     color: white;

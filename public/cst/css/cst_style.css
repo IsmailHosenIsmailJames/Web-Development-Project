@@ -56,3 +56,32 @@ body {
     width: 500px;
     margin: 5px;
 }
+
+/* Container holding the image and the text */
+.full_container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-image {
+    /* Add the blur effect */
+    filter: brightness(60%);
+
+    /* Full width */
+    width: 100%;
+
+    /* Fixed height in centimeters */
+    height: 13cm;
+
+    /* Center and scale the image nicely */
+    object-fit: cover;
+}
