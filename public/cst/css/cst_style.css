@@ -85,3 +85,23 @@ body {
     /* Center and scale the image nicely */
     object-fit: cover;
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #3498db9d;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #065a92;
+}
+
+button:active {
+    transform: translateY(2px);
+}
